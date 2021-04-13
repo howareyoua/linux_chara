@@ -11,7 +11,7 @@
 #define CLOBALMEM_MAJOR 0
 #define GLOBAL_CLEAR 1
 
-static int globalmen_major = CLOBALMEM_MAJOR;
+static int globalmen_major = CLOBALMEM_MAJOR;  
 struct globalmen_dev{
 	struct cdev cdev;
 	char men[GLOBAL_SIZE];
