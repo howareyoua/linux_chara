@@ -21,6 +21,7 @@ struct globalmen_dev *globalmem_devp = NULL;
 dev_t devnum;
 //ceshigenggai   
 //yuanchengshengji
+//目前推送完成，即将进行下载到本地
 static ssize_t globalmem_write(struct file *filp, const char __user * buf,
 						size_t size, loff_t * ppos)
 {
