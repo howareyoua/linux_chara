@@ -19,7 +19,7 @@ struct globalmen_dev{
 
 struct globalmen_dev *globalmem_devp = NULL;
 dev_t devnum;
-
+//ceshigenggai
 static ssize_t globalmem_write(struct file *filp, const char __user * buf,
 						size_t size, loff_t * ppos)
 {
